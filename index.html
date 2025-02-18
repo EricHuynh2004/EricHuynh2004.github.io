@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric | Software Engineer</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KIT.js" crossorigin="anonymous"></script>
+    <style>
+        /* Updated Sidebar Color */
+        .sidebar {
+            background-color: #252525;
+            color: #e0e0e0;
+            width: 470px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+<!-- Sidebar for About Me, Favorites, etc. -->
+<div class="sidebar">
+    <h2>About Me</h2>
+    <p>I'm Eric, a software engineer and caffeine enthusiast.</p>
+
+    <h2>Stay in Touch</h2>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">RSS Feed</a>
+
+    <h2>Favorites</h2>
+    <a href="#">Cool Project 1</a>
+    <a href="#">Super Secret Code</a>
+    <a href="#">Another Thing</a>
+</div>
+
+<!-- Main Content -->
+<div class="content-wrapper">
     <nav class="navbar">
-        <div class="logo">Eric</div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Articles</a>
-            <a href="#">About Me</a>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Eric's Logo" class="logo-img">
+            Eric Huynh
         </div>
-        <div class="social-icons">
-            <a href="https://github.com/EricHuynh2004" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/eric-v-h/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/erich_climbing?igsh=MWxheHZraWRlM292Zw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#articles">Articles</a>
+            <a href="#about">About Me</a>
         </div>
     </nav>
+
+    <section id="home">
+        <h1>Welcome to My Goofy Portfolio</h1>
+        <p>This is where I pretend to be cool on the internet.</p>
+    </section>
+</div>
 
 </body>
 </html>
