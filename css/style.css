@@ -83,7 +83,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 470px;
+    width: 450px;
     height: 100vh;
     background-color: #1a1a1a;
     padding: 20px;
@@ -110,7 +110,7 @@ body {
 
 /* Adjust main content so it's not hidden under sidebar */
 .content-wrapper {
-    margin-left: 470px; /* Push content to the right */
+    margin-left: 400px; /* Push content to the right */
     padding: 20px;
     width: calc(100% - 470px);
 }
