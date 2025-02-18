@@ -25,10 +25,11 @@ body {
 
 /* === Navigation Bar === */
 .navbar {
+    position: fixed;
+    top: 0px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 50px;
     background-color: #1a1a1a;
     border-bottom: 2px solid #333;
