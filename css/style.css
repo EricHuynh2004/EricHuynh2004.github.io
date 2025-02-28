@@ -1,7 +1,7 @@
 /* Import Monocraft Font */
 @font-face {
     font-family: 'Monocraft';
-    src: url('../Assets/Monocraft.ttf') format('truetype');
+    src: url('../Assets/Monocraft.ttc') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
