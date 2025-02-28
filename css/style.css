@@ -78,14 +78,15 @@ body {
     color: #bb86fc;
 }
 
-/* Sidebar */
+/*Deadspace + Sidebar */
+.deadspace,
 .sidebar {
     position: fixed;
     left: 0;
     top: 0;
     width: 450px;
     height: 100vh;
-    background-color: #1a1a1a;
+    background-color: #0a0a0a;
     padding: 20px;
     color: #e0e0e0;
     display: flex;
@@ -94,17 +95,17 @@ body {
 }
 
 /* Styling for sidebar elements */
-.sidebar h2 {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
 .sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: #bb86fc;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .sidebar a:hover {
+    color: #e0e0e0;
     text-decoration: underline;
 }
 
